@@ -10,7 +10,7 @@ const Clock = () => {
 
     if (currDate >=1 && currDate < 12) {
         greeting='Good Morning...'
-        cssStyle.color='#2eb82e'
+        cssStyle.color='green'
       }
       else if (currDate >=12 && currDate < 19) {
         greeting='Good Afternoon...'

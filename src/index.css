@@ -5,7 +5,7 @@
 }
 
 body{
-  background-image: url("bg1.jpg");
+  background-image: url("bg2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -66,7 +66,7 @@ footer h1{
     letter-spacing: 6px;
   }
   body{
-    background-size: cover;
+    background-size: 200vh;
   }
   .heading{
     font-size: 25px;
@@ -96,7 +96,7 @@ footer h1{
     font-size: 15px;
   }
   body{
-    background-size: 100vh;
+    background-size: 200vh;
   }
 }
 @media only screen and (max-width: 350px) {
@@ -109,5 +109,13 @@ footer h1{
   footer h1{
     letter-spacing: 4px;
     font-size: 12px;
+  }
+}
+@media only screen and (min-height: 800px) {
+  body{
+    background-size: 200vh;
+  }
+  .footer h1{
+    font-size: 40px;
   }
 }
